@@ -15,31 +15,29 @@ jupyter:
 
 # Usage of the data4cat module
 
-For convenience and e.g. the usage in lectures the BasCat DinoRun dataset was wrapped into some convenience functions to enable a smooth start on how to work with published remote data.
+For convenience and e.g. the usage in lectures datasets from the central NFDI4Cat repository (Dataverse) where wrapped into modules.  The convenience functions should enable a smooth start on how to work with published remote data. Datasets included up to now are:
 
-First import the module:
-
-
-```
-git remote add origin https://github.com/nfdi4cat/data4cat.git
-git branch -M main
-git push -u origin main
-````
+* The BasCat DinoRun dataset on synthesis to ethanol
 
 
+## Installation of the data4cat module
+
+For the installation you can clone or download the repository:
 ```
 git clone https://github.com/nfdi4cat/data4cat.git
 ```
-cd into the directory an install data4cat
+cd into the directory an install data4cat:
 
 ```
 pip install .
 ```
-
+Or you can directly install the module from the remote source:
 ```
 python -m pip install git+https://github.com/nfdi4cat/data4cat.git@main
 ````
 
+
+First import the module:
 
 ```python
 from data4cat import dino_run
