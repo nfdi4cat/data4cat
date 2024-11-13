@@ -15,7 +15,7 @@ jupyter:
 
 # Usage of the data4cat module
 
-For convenience and e.g. the usage in lectures datasets from the central NFDI4Cat repository (Dataverse) where wrapped into modules.  The convenience functions should enable a smooth start on how to work with published remote data. Datasets included up to now are:
+For convenience and e.g. the usage in lectures datasets from the BasCat repository (Dataverse) where wrapped into modules.  The convenience functions should enable a smooth start on how to work with published remote data. Datasets included up to now are:
 
 * The BasCat DinoRun dataset on synthesis to ethanol
 
